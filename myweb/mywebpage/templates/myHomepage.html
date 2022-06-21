@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'css/myHomepage.css' %}">
+        <title>Wee's My Homepage</title>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <p>나를<br>소개하는<br>홈페이지</p>
+                <ul>
+                    <li><a href="#">인적사항</a></li>
+                    <li><a href="#">성격</a></li>
+                    <li><a href="#">취미</a></li>
+                    <li><a href="#">좋아하는 음식</a></li>
+                    <li><a href="#">수강과목</a></li>
+                </ul>
+            </header>
+            <section>
+                <h2>-인적사항</h2>
+                <p><b>이름 :</b> 위성준<br><b>나이 :</b> 24살<br><b>키 :</b> 174cm</p>
+                <h2>-성격</h2>
+                <p>MBTI -> ISFP<br>평소 조용하고 얌전한 성격이지만, 친한 사람들과 있을때는 매우 활발한 성격.<br><img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA4MjVfMTY5%2FMDAxNjI5ODIzOTI3NDUz.236tcGSX0P8ahDoWdLkrMyRIPgFO7Ag3KZntghTwmA4g.RHQFQVuJAsiauBTC313yOx9KJIBc-Y5W6WVG0Ko9-m4g.PNG.carrie0529%2F%25C8%25AD%25B8%25E9_%25C4%25B8%25C3%25B3_2021-08-24_225912.png&type=a340"></p>
+                <h2>-취미</h2>
+                <table summary="취미" style="width: 600px; height: 200px">
+                    <tr>
+                        <th>유형</th>
+                        <th>종류</th>
+                    </tr>
+                    <tr>
+                        <td>게임</td>
+                        <td>리그오브레전드, 던전앤파이터 모바일, 카트라이더 러쉬+</td>
+                    </tr>
+                    <tr>
+                        <td>유튜브</td>
+                        <td><a href="https://goo.gl/MmtEsE" target="_blank">임선비</a>, <a href="https://www.youtube.com/c/%EC%A0%80%EB%9D%BC%EB%8E%83JUSTLIKETHAT" target="_blank">저라뎃</a>, <a href="https://www.youtube.com/c/%EA%B8%B0%EB%89%B4%EB%8B%A4HANGTUBE" target="_blank">기뉴다</a></td>
+                    </tr>
+                    <tr>
+                        <td>운동</td>
+                        <td>팔굽혀펴기, 숨쉬기, 산책</td>
+                    </tr>
+                </table>
+                <h2>-좋아하는 음식</h2>
+                <div>
+                    <ul>
+                        <li>삼겹살<br><img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjAyMTZfOTEg%2FMDAxNjQ1MDIwODA5NDQ1.ZXm7jjIMJ-10DfWn1D7WSmUxfrjK5gpMtyeor850XsIg.WQcpqS4TUk9-lIPXGiHjZG0vZLGwXNR72mmwkTPx6SUg.JPEG.rkswlqhrud%2FIMG_5768.jpg&type=sc960_832" style="width:300px; height:200px"></li>
+                        <li>육개장<br><img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjAzMDFfMjI0%2FMDAxNjQ2MTEzMTU2NTQ3.xao5NHjoq2u7xHZ9cAulw2QqXxq8nU0xtGc_o6IxitYg.It2VfeOdmdfuus8iAYhUu-e699i4fCeGxIqQg6VPvx0g.JPEG.lgmlgm19%2FIMG_0580.JPG&type=sc960_832" style="width:300px; height:200px"></li>
+                        <li>치킨<br><img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjAzMDdfODIg%2FMDAxNjQ2NjYxMDQzMDU1.KbAli5WE2li1QfHn_k3-pwK5_U_t-zFNL9Wp5occlhEg.Pt7HoRL74zy0PUsJlNDRzZWNZxuIbaRQNRna-X-yqe4g.JPEG.jjh6178_%2FFullSizeRender.jpg&type=sc960_832" style="width:300px; height:250px"></li>
+                        <li>곱창<br><img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjA0MTVfNTIg%2FMDAxNjUwMDA5NTA2MjI5.ANjp-hJ2UH8HXycOXCWaJIAWtt6Ku4nY4fDmSduwNUsg.sGCR3WhB-b6qncZuqzX5i_sF8hxXJcbRTJu3LZtH9f8g.JPEG.atc0201%2F1_%252835%2529.jpg&type=a340" style="width:300px; height:200px"></li>
+                    </ul>
+                </div>
+                <h2>-수강과목</h2>
+                <ul>
+                    <li>오픈소스SW활용</li>
+                    <li>모바일플랫폼</li>
+                    <li>SW보안개론</li>
+                    <li>운영체제</li>
+                    <li>인공지능</li>
+                    <li>중부유럽지성사입문</li>
+                </ul>
+            </section>
+            <footer>
+                My Homepage by WeeSJ -> <a href="https://github.com/tjdwns5098/Mid-Term-Project.git" target="_blank">Code</a>
+            </footer>
+        </div>
+    </body>
+</html>
